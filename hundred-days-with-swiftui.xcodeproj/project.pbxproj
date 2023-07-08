@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E400E4692A19A50F00A38FCF /* TechnicalProjectAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400E4682A19A50F00A38FCF /* TechnicalProjectAppView.swift */; };
+		E42537C029EE3FAE00C48E34 /* WeSplitLearningPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42537BF29EE3FAE00C48E34 /* WeSplitLearningPointsView.swift */; };
+		E42AEF2A2A50D4150036AD1B /* BetterRestAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF292A50D4150036AD1B /* BetterRestAppView.swift */; };
+		E42AEF2D2A50D5C20036AD1B /* BetterRest.csv in Resources */ = {isa = PBXBuildFile; fileRef = E42AEF2B2A50D5C20036AD1B /* BetterRest.csv */; };
+		E42AEF2E2A50D5C20036AD1B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF2C2A50D5C20036AD1B /* SleepCalculator.mlmodel */; };
+		E42AEF312A5101810036AD1B /* WordScrambleAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF302A5101810036AD1B /* WordScrambleAppView.swift */; };
+		E42AEF332A5101920036AD1B /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = E42AEF322A5101920036AD1B /* start.txt */; };
+		E42AEF362A525F080036AD1B /* AnimationsAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF352A525F080036AD1B /* AnimationsAppView.swift */; };
 		E4781BF029E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781BEF29E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift */; };
 		E4781BF229E217FA00DC2020 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781BF129E217FA00DC2020 /* Persistence.swift */; };
 		E4781BF529E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4781BF329E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld */; };
-		E4781BF729E217FA00DC2020 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781BF629E217FA00DC2020 /* ContentView.swift */; };
+		E4781BF729E217FA00DC2020 /* WeSplitAppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781BF629E217FA00DC2020 /* WeSplitAppContentView.swift */; };
 		E4781BF929E217FB00DC2020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4781BF829E217FB00DC2020 /* Assets.xcassets */; };
 		E4781BFD29E217FB00DC2020 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4781BFC29E217FB00DC2020 /* Preview Assets.xcassets */; };
 		E4781C0729E217FB00DC2020 /* hundred_days_with_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781C0629E217FB00DC2020 /* hundred_days_with_swiftuiTests.swift */; };
 		E4781C1129E217FB00DC2020 /* hundred_days_with_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781C1029E217FB00DC2020 /* hundred_days_with_swiftuiUITests.swift */; };
 		E4781C1329E217FB00DC2020 /* hundred_days_with_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781C1229E217FB00DC2020 /* hundred_days_with_swiftuiUITestsLaunchTests.swift */; };
+		E4EDC8A329FB5CDA00E1E134 /* TemperatureConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDC8A229FB5CDA00E1E134 /* TemperatureConverterView.swift */; };
+		E4EDC8A629FB607400E1E134 /* GuessTheFlagLearningPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDC8A529FB607400E1E134 /* GuessTheFlagLearningPointsView.swift */; };
+		E4EDC8A829FB642600E1E134 /* GuessTheFlagAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDC8A729FB642600E1E134 /* GuessTheFlagAppView.swift */; };
+		E4EE78762A1C64E400B49F3C /* RockPaperScissorsAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE78752A1C64E400B49F3C /* RockPaperScissorsAppView.swift */; };
+		E4FE4E8729F77C29002EF2AF /* UnitConverterAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FE4E8629F77C29002EF2AF /* UnitConverterAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E400E4682A19A50F00A38FCF /* TechnicalProjectAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalProjectAppView.swift; sourceTree = "<group>"; };
+		E42537BF29EE3FAE00C48E34 /* WeSplitLearningPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitLearningPointsView.swift; sourceTree = "<group>"; };
+		E42AEF292A50D4150036AD1B /* BetterRestAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestAppView.swift; sourceTree = "<group>"; };
+		E42AEF2B2A50D5C20036AD1B /* BetterRest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BetterRest.csv; sourceTree = "<group>"; };
+		E42AEF2C2A50D5C20036AD1B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		E42AEF302A5101810036AD1B /* WordScrambleAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleAppView.swift; sourceTree = "<group>"; };
+		E42AEF322A5101920036AD1B /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		E42AEF352A525F080036AD1B /* AnimationsAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsAppView.swift; sourceTree = "<group>"; };
 		E4781BEC29E217FA00DC2020 /* hundred-days-with-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hundred-days-with-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4781BEF29E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hundred_days_with_swiftuiApp.swift; sourceTree = "<group>"; };
 		E4781BF129E217FA00DC2020 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E4781BF429E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hundred_days_with_swiftui.xcdatamodel; sourceTree = "<group>"; };
-		E4781BF629E217FA00DC2020 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4781BF629E217FA00DC2020 /* WeSplitAppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitAppContentView.swift; sourceTree = "<group>"; };
 		E4781BF829E217FB00DC2020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4781BFA29E217FB00DC2020 /* hundred_days_with_swiftui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hundred_days_with_swiftui.entitlements; sourceTree = "<group>"; };
 		E4781BFC29E217FB00DC2020 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +70,12 @@
 		E4781C0C29E217FB00DC2020 /* hundred-days-with-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hundred-days-with-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4781C1029E217FB00DC2020 /* hundred_days_with_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hundred_days_with_swiftuiUITests.swift; sourceTree = "<group>"; };
 		E4781C1229E217FB00DC2020 /* hundred_days_with_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hundred_days_with_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4781C2229E2191800DC2020 /* SwiftBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E4EDC8A229FB5CDA00E1E134 /* TemperatureConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterView.swift; sourceTree = "<group>"; };
+		E4EDC8A529FB607400E1E134 /* GuessTheFlagLearningPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagLearningPointsView.swift; sourceTree = "<group>"; };
+		E4EDC8A729FB642600E1E134 /* GuessTheFlagAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagAppView.swift; sourceTree = "<group>"; };
+		E4EE78752A1C64E400B49F3C /* RockPaperScissorsAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsAppView.swift; sourceTree = "<group>"; };
+		E4FE4E8629F77C29002EF2AF /* UnitConverterAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +103,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E400E4672A19A4E800A38FCF /* RockPaperScissorApp */ = {
+			isa = PBXGroup;
+			children = (
+				E400E4682A19A50F00A38FCF /* TechnicalProjectAppView.swift */,
+				E4EE78752A1C64E400B49F3C /* RockPaperScissorsAppView.swift */,
+			);
+			path = RockPaperScissorApp;
+			sourceTree = "<group>";
+		};
+		E42AEF282A50D3F20036AD1B /* BetterRestApp */ = {
+			isa = PBXGroup;
+			children = (
+				E42AEF292A50D4150036AD1B /* BetterRestAppView.swift */,
+				E42AEF2B2A50D5C20036AD1B /* BetterRest.csv */,
+				E42AEF2C2A50D5C20036AD1B /* SleepCalculator.mlmodel */,
+			);
+			path = BetterRestApp;
+			sourceTree = "<group>";
+		};
+		E42AEF2F2A5100C50036AD1B /* WordScambleApp */ = {
+			isa = PBXGroup;
+			children = (
+				E42AEF302A5101810036AD1B /* WordScrambleAppView.swift */,
+				E42AEF322A5101920036AD1B /* start.txt */,
+			);
+			path = WordScambleApp;
+			sourceTree = "<group>";
+		};
+		E42AEF342A525EE40036AD1B /* AnimationsApp */ = {
+			isa = PBXGroup;
+			children = (
+				E42AEF352A525F080036AD1B /* AnimationsAppView.swift */,
+			);
+			path = AnimationsApp;
+			sourceTree = "<group>";
+		};
+		E42AEF372A59DED80036AD1B /* MultiplyTablesGameApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MultiplyTablesGameApp;
+			sourceTree = "<group>";
+		};
 		E4781BE329E217FA00DC2020 = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +170,16 @@
 			isa = PBXGroup;
 			children = (
 				E4781BEF29E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift */,
+				E4781C2229E2191800DC2020 /* SwiftBasics.playground */,
+				E4781C2329E21C0100DC2020 /* WeSplitApp */,
+				E4FE4E8529F77C0F002EF2AF /* UnitConverterApp */,
+				E4EDC8A429FB605B00E1E134 /* GuessTheFlagApp */,
+				E400E4672A19A4E800A38FCF /* RockPaperScissorApp */,
+				E42AEF282A50D3F20036AD1B /* BetterRestApp */,
+				E42AEF2F2A5100C50036AD1B /* WordScambleApp */,
+				E42AEF342A525EE40036AD1B /* AnimationsApp */,
+				E42AEF372A59DED80036AD1B /* MultiplyTablesGameApp */,
 				E4781BF129E217FA00DC2020 /* Persistence.swift */,
-				E4781BF629E217FA00DC2020 /* ContentView.swift */,
 				E4781BF829E217FB00DC2020 /* Assets.xcassets */,
 				E4781BFA29E217FB00DC2020 /* hundred_days_with_swiftui.entitlements */,
 				E4781BF329E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld */,
@@ -133,6 +211,33 @@
 				E4781C1229E217FB00DC2020 /* hundred_days_with_swiftuiUITestsLaunchTests.swift */,
 			);
 			path = "hundred-days-with-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+		E4781C2329E21C0100DC2020 /* WeSplitApp */ = {
+			isa = PBXGroup;
+			children = (
+				E42537BF29EE3FAE00C48E34 /* WeSplitLearningPointsView.swift */,
+				E4781BF629E217FA00DC2020 /* WeSplitAppContentView.swift */,
+			);
+			path = WeSplitApp;
+			sourceTree = "<group>";
+		};
+		E4EDC8A429FB605B00E1E134 /* GuessTheFlagApp */ = {
+			isa = PBXGroup;
+			children = (
+				E4EDC8A529FB607400E1E134 /* GuessTheFlagLearningPointsView.swift */,
+				E4EDC8A729FB642600E1E134 /* GuessTheFlagAppView.swift */,
+			);
+			path = GuessTheFlagApp;
+			sourceTree = "<group>";
+		};
+		E4FE4E8529F77C0F002EF2AF /* UnitConverterApp */ = {
+			isa = PBXGroup;
+			children = (
+				E4FE4E8629F77C29002EF2AF /* UnitConverterAppView.swift */,
+				E4EDC8A229FB5CDA00E1E134 /* TemperatureConverterView.swift */,
+			);
+			path = UnitConverterApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +345,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4781BFD29E217FB00DC2020 /* Preview Assets.xcassets in Resources */,
+				E42AEF332A5101920036AD1B /* start.txt in Resources */,
+				E42AEF2D2A50D5C20036AD1B /* BetterRest.csv in Resources */,
 				E4781BF929E217FB00DC2020 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +372,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EDC8A329FB5CDA00E1E134 /* TemperatureConverterView.swift in Sources */,
 				E4781BF029E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift in Sources */,
+				E4EDC8A629FB607400E1E134 /* GuessTheFlagLearningPointsView.swift in Sources */,
+				E4FE4E8729F77C29002EF2AF /* UnitConverterAppView.swift in Sources */,
 				E4781BF229E217FA00DC2020 /* Persistence.swift in Sources */,
-				E4781BF729E217FA00DC2020 /* ContentView.swift in Sources */,
+				E42AEF312A5101810036AD1B /* WordScrambleAppView.swift in Sources */,
+				E42537C029EE3FAE00C48E34 /* WeSplitLearningPointsView.swift in Sources */,
+				E400E4692A19A50F00A38FCF /* TechnicalProjectAppView.swift in Sources */,
+				E4781BF729E217FA00DC2020 /* WeSplitAppContentView.swift in Sources */,
+				E4EE78762A1C64E400B49F3C /* RockPaperScissorsAppView.swift in Sources */,
+				E42AEF362A525F080036AD1B /* AnimationsAppView.swift in Sources */,
+				E42AEF2A2A50D4150036AD1B /* BetterRestAppView.swift in Sources */,
+				E4EDC8A829FB642600E1E134 /* GuessTheFlagAppView.swift in Sources */,
 				E4781BF529E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld in Sources */,
+				E42AEF2E2A50D5C20036AD1B /* SleepCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,8 +13,14 @@ struct hundred_days_with_swiftuiApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            //WeSplitAppContentView()
+            //UnitConverterAppView()
+            GuessTheFlagAppView()
+            //TechnicalProjectAppView()
+            //RockPaperScissorsAppView()
+            //BetterRestAppView()
+            //WordScrambleAppView()
+            //AnimationsAppView()
         }
     }
 }

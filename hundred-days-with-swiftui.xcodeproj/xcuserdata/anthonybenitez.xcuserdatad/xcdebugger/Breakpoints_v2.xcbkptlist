@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "60A2E6E7-0E20-4344-AB67-0942DB18A63A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13CA355E-79DC-4002-89E5-3B60F1DE5690"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hundred-days-with-swiftui/RockPaperScissorApp/RockPaperScissorsAppView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "rpsOptionTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73ADB012-16B1-4F79-8420-6EC1613F1D89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hundred-days-with-swiftui/RockPaperScissorApp/RockPaperScissorsAppView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "rpsOptionTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73ADB012-16B1-4F79-8420-6EC1613F1D89 - f9996debe88a0a2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hundred_days_with_swiftui.RockPaperScissorsAppView.rpsOptionTapped(hundred_days_with_swiftui.RPSOption) -&gt; ()"
+                  moduleName = "hundred-days-with-swiftui"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonybenitez/Desktop/hundred-days-with-swiftui/hundred-days-with-swiftui/RockPaperScissorApp/RockPaperScissorsAppView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1404">
+               </Location>
+               <Location
+                  uuid = "73ADB012-16B1-4F79-8420-6EC1613F1D89 - f9996debe88a0a2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hundred_days_with_swiftui.RockPaperScissorsAppView.rpsOptionTapped(hundred_days_with_swiftui.RPSOption) -&gt; ()"
+                  moduleName = "hundred-days-with-swiftui"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthonybenitez/Desktop/hundred-days-with-swiftui/hundred-days-with-swiftui/RockPaperScissorApp/RockPaperScissorsAppView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

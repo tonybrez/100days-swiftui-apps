@@ -15,6 +15,7 @@
 		E42AEF312A5101810036AD1B /* WordScrambleAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF302A5101810036AD1B /* WordScrambleAppView.swift */; };
 		E42AEF332A5101920036AD1B /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = E42AEF322A5101920036AD1B /* start.txt */; };
 		E42AEF362A525F080036AD1B /* AnimationsAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF352A525F080036AD1B /* AnimationsAppView.swift */; };
+		E42AEF3B2A63097D0036AD1B /* MultiplyTablesGameAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF3A2A63097D0036AD1B /* MultiplyTablesGameAppView.swift */; };
 		E4781BF029E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781BEF29E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift */; };
 		E4781BF229E217FA00DC2020 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781BF129E217FA00DC2020 /* Persistence.swift */; };
 		E4781BF529E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4781BF329E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld */; };
@@ -57,6 +58,7 @@
 		E42AEF302A5101810036AD1B /* WordScrambleAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleAppView.swift; sourceTree = "<group>"; };
 		E42AEF322A5101920036AD1B /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		E42AEF352A525F080036AD1B /* AnimationsAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsAppView.swift; sourceTree = "<group>"; };
+		E42AEF3A2A63097D0036AD1B /* MultiplyTablesGameAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyTablesGameAppView.swift; sourceTree = "<group>"; };
 		E4781BEC29E217FA00DC2020 /* hundred-days-with-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hundred-days-with-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4781BEF29E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hundred_days_with_swiftuiApp.swift; sourceTree = "<group>"; };
 		E4781BF129E217FA00DC2020 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		E42AEF372A59DED80036AD1B /* MultiplyTablesGameApp */ = {
 			isa = PBXGroup;
 			children = (
+				E42AEF3A2A63097D0036AD1B /* MultiplyTablesGameAppView.swift */,
 			);
 			path = MultiplyTablesGameApp;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				E4781BF729E217FA00DC2020 /* WeSplitAppContentView.swift in Sources */,
 				E4EE78762A1C64E400B49F3C /* RockPaperScissorsAppView.swift in Sources */,
 				E42AEF362A525F080036AD1B /* AnimationsAppView.swift in Sources */,
+				E42AEF3B2A63097D0036AD1B /* MultiplyTablesGameAppView.swift in Sources */,
 				E42AEF2A2A50D4150036AD1B /* BetterRestAppView.swift in Sources */,
 				E4EDC8A829FB642600E1E134 /* GuessTheFlagAppView.swift in Sources */,
 				E4781BF529E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld in Sources */,

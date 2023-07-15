@@ -15,12 +15,13 @@ struct hundred_days_with_swiftuiApp: App {
         WindowGroup {
             //WeSplitAppContentView()
             //UnitConverterAppView()
-            GuessTheFlagAppView()
+            //GuessTheFlagAppView()
             //TechnicalProjectAppView()
             //RockPaperScissorsAppView()
             //BetterRestAppView()
             //WordScrambleAppView()
             //AnimationsAppView()
+            MultiplyTablesGameAppView()
         }
     }
 }

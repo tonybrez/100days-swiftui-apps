@@ -21,7 +21,8 @@ struct hundred_days_with_swiftuiApp: App {
             //BetterRestAppView()
             //WordScrambleAppView()
             //AnimationsAppView()
-            MultiplyTablesGameAppView()
+            //MultiplyTablesGameAppView()
+            iExpenseAppView()
         }
     }
 }

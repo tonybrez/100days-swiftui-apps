@@ -11,9 +11,9 @@ import SwiftUI
 struct iExpenseLearningPointsSecondView: View {
     // MARK: - Properties
     let name: String
-    @Environment(\.dismiss) var dismiss
+    @Environment(\.dismiss) var dismiss /// @Environment is a property wrapper to access values from the environment, allowing passing data and dependencies down the view hierarchy
     @State private var numbers = [Int]()
-    @AppStorage("tapCount") private var tapCount = 0
+    @AppStorage("tapCount") private var tapCount = 0 /// @AppStorage is a property wrapper short-hanededly to read UserDefaults
     
     // MARK: - Body
     var body: some View {
@@ -23,6 +23,7 @@ struct iExpenseLearningPointsSecondView: View {
                 
                 VStack {
                     List {
+                        /// ForEach items have an in-built propertu .onDelete to handle swipe to delete functionality
                         ForEach(numbers, id: \.self) {
                             Text("Row \($0) - Swipe left to delete")
                         }
@@ -32,7 +33,7 @@ struct iExpenseLearningPointsSecondView: View {
                     Button("Add Number") {
                         numbers.append(tapCount)
                         tapCount += 1
-                        UserDefaults.standard.set(self.tapCount, forKey: "Tap")
+                        UserDefaults.standard.set(tapCount, forKey: "Tap")
                     }
                 }
                 

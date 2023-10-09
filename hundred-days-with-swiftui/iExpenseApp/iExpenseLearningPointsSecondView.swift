@@ -1,5 +1,5 @@
 //
-//  iExpenseSecondAppView.swift
+//  iExpenseLearningPointsSecondView.swift
 //  hundred-days-with-swiftui
 //
 //  Created by Anthony Benitez-Rodriguez on 10/9/23.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - DAY 36
-struct iExpenseSecondAppView: View {
+struct iExpenseLearningPointsSecondView: View {
     // MARK: - Properties
     let name: String
     @Environment(\.dismiss) var dismiss

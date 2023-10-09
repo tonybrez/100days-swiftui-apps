@@ -1,5 +1,5 @@
 //
-//  iExpenseAppView.swift
+//  iExpenseLearningPointsView.swift
 //  hundred-days-with-swiftui
 //
 //  Created by Anthony Benitez-Rodriguez on 10/9/23.
@@ -38,7 +38,7 @@ class User: ObservableObject, Codable {
     }
 }
 
-struct iExpenseAppView: View {
+struct iExpenseLearningPointsView: View {
     // MARK: - Properties
     @StateObject private var user = User()
     @State private var showingSheet = false
@@ -64,7 +64,7 @@ struct iExpenseAppView: View {
             showingSheet.toggle()
         }
         .sheet(isPresented: $showingSheet) {
-            iExpenseSecondAppView(name: "Tute")
+            iExpenseLearningPointsSecondView(name: user.firstName)
         }
     }
 }

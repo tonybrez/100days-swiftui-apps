@@ -18,6 +18,9 @@
 		E42AEF3B2A63097D0036AD1B /* MultiplyTablesGameAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF3A2A63097D0036AD1B /* MultiplyTablesGameAppView.swift */; };
 		E450BEAE2AD465AA00D92B8A /* iExpenseLearningPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E450BEAD2AD465AA00D92B8A /* iExpenseLearningPointsView.swift */; };
 		E450BEB02AD46CF300D92B8A /* iExpenseLearningPointsSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E450BEAF2AD46CF300D92B8A /* iExpenseLearningPointsSecondView.swift */; };
+		E466B4F82B0B0C1D00716F87 /* iExpenseAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466B4F72B0B0C1D00716F87 /* iExpenseAppView.swift */; };
+		E466B4FB2B0B0C8500716F87 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466B4FA2B0B0C8500716F87 /* Expenses.swift */; };
+		E466B5002B0B0F8500716F87 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466B4FF2B0B0F8500716F87 /* AddExpenseView.swift */; };
 		E4781BF029E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781BEF29E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift */; };
 		E4781BF229E217FA00DC2020 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4781BF129E217FA00DC2020 /* Persistence.swift */; };
 		E4781BF529E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4781BF329E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld */; };
@@ -63,6 +66,9 @@
 		E42AEF3A2A63097D0036AD1B /* MultiplyTablesGameAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyTablesGameAppView.swift; sourceTree = "<group>"; };
 		E450BEAD2AD465AA00D92B8A /* iExpenseLearningPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseLearningPointsView.swift; sourceTree = "<group>"; };
 		E450BEAF2AD46CF300D92B8A /* iExpenseLearningPointsSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseLearningPointsSecondView.swift; sourceTree = "<group>"; };
+		E466B4F72B0B0C1D00716F87 /* iExpenseAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseAppView.swift; sourceTree = "<group>"; };
+		E466B4FA2B0B0C8500716F87 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		E466B4FF2B0B0F8500716F87 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		E4781BEC29E217FA00DC2020 /* hundred-days-with-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hundred-days-with-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4781BEF29E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hundred_days_with_swiftuiApp.swift; sourceTree = "<group>"; };
 		E4781BF129E217FA00DC2020 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -156,10 +162,29 @@
 		E450BEAC2AD4642100D92B8A /* iExpenseApp */ = {
 			isa = PBXGroup;
 			children = (
+				E466B4FE2B0B0F7600716F87 /* Views */,
+				E466B4F92B0B0C7A00716F87 /* Model */,
 				E450BEAD2AD465AA00D92B8A /* iExpenseLearningPointsView.swift */,
 				E450BEAF2AD46CF300D92B8A /* iExpenseLearningPointsSecondView.swift */,
 			);
 			path = iExpenseApp;
+			sourceTree = "<group>";
+		};
+		E466B4F92B0B0C7A00716F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E466B4FA2B0B0C8500716F87 /* Expenses.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E466B4FE2B0B0F7600716F87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E466B4F72B0B0C1D00716F87 /* iExpenseAppView.swift */,
+				E466B4FF2B0B0F8500716F87 /* AddExpenseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		E4781BE329E217FA00DC2020 = {
@@ -389,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E466B4FB2B0B0C8500716F87 /* Expenses.swift in Sources */,
 				E4EDC8A329FB5CDA00E1E134 /* TemperatureConverterView.swift in Sources */,
 				E450BEAE2AD465AA00D92B8A /* iExpenseLearningPointsView.swift in Sources */,
 				E4781BF029E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift in Sources */,
@@ -406,6 +432,8 @@
 				E4EDC8A829FB642600E1E134 /* GuessTheFlagAppView.swift in Sources */,
 				E450BEB02AD46CF300D92B8A /* iExpenseLearningPointsSecondView.swift in Sources */,
 				E4781BF529E217FA00DC2020 /* hundred_days_with_swiftui.xcdatamodeld in Sources */,
+				E466B5002B0B0F8500716F87 /* AddExpenseView.swift in Sources */,
+				E466B4F82B0B0C1D00716F87 /* iExpenseAppView.swift in Sources */,
 				E42AEF2E2A50D5C20036AD1B /* SleepCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

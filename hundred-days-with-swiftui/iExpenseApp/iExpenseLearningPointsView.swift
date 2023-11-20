@@ -6,14 +6,17 @@
 //
 
 import SwiftUI
+import Observation
 
 // MARK: - DAY 36
 ///  Contrary to structs which exist which get recreated when mutated. Classes exists as one instance in memory.
 ///  This means that in SwiftUI, we have to set up classes to be Observable if we want the SwiftUI View to refresh when changes happen.
 ///  To achieve this, we conform the class to ObservableObject, add an @Published decorator to the properties we want to observe, and instantiate it with an @StateObject decorator.
-class User: ObservableObject, Codable {
-    @Published var firstName: String
-    @Published var lastName: String
+///  Starting with iOS 17, iPadOS 17, macOS 14, tvOS 17, and watchOS 10, ObservableObject protocol has been changed to the @Observable macro, which is Swift's way of quietly rewriting our code to add extra functionality.
+@Observable
+class User: Codable {
+    var firstName: String
+    var lastName: String
     
     private enum CodingKeys: String, CodingKey {
         case firstName
@@ -40,7 +43,7 @@ class User: ObservableObject, Codable {
 
 struct iExpenseLearningPointsView: View {
     // MARK: - Properties
-    @StateObject private var user = User()
+    @State private var user = User()
     @State private var showingSheet = false
     
     // MARK: - Body

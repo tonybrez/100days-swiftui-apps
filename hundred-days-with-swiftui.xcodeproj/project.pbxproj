@@ -16,6 +16,10 @@
 		E42AEF332A5101920036AD1B /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = E42AEF322A5101920036AD1B /* start.txt */; };
 		E42AEF362A525F080036AD1B /* AnimationsAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF352A525F080036AD1B /* AnimationsAppView.swift */; };
 		E42AEF3B2A63097D0036AD1B /* MultiplyTablesGameAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AEF3A2A63097D0036AD1B /* MultiplyTablesGameAppView.swift */; };
+		E4306BF22B66EC3A0047C808 /* MoonshotLearningPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4306BF12B66EC3A0047C808 /* MoonshotLearningPointsView.swift */; };
+		E4306BF62B66F1D10047C808 /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4306BF52B66F1D10047C808 /* MUser.swift */; };
+		E4306BF82B66F1FD0047C808 /* MCustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4306BF72B66F1FD0047C808 /* MCustomText.swift */; };
+		E4306BFA2B66F7FE0047C808 /* MoonshotLearningPointsSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4306BF92B66F7FE0047C808 /* MoonshotLearningPointsSecondView.swift */; };
 		E450BEAE2AD465AA00D92B8A /* iExpenseLearningPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E450BEAD2AD465AA00D92B8A /* iExpenseLearningPointsView.swift */; };
 		E450BEB02AD46CF300D92B8A /* iExpenseLearningPointsSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E450BEAF2AD46CF300D92B8A /* iExpenseLearningPointsSecondView.swift */; };
 		E466B4F82B0B0C1D00716F87 /* iExpenseAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466B4F72B0B0C1D00716F87 /* iExpenseAppView.swift */; };
@@ -64,6 +68,10 @@
 		E42AEF322A5101920036AD1B /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		E42AEF352A525F080036AD1B /* AnimationsAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsAppView.swift; sourceTree = "<group>"; };
 		E42AEF3A2A63097D0036AD1B /* MultiplyTablesGameAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyTablesGameAppView.swift; sourceTree = "<group>"; };
+		E4306BF12B66EC3A0047C808 /* MoonshotLearningPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotLearningPointsView.swift; sourceTree = "<group>"; };
+		E4306BF52B66F1D10047C808 /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
+		E4306BF72B66F1FD0047C808 /* MCustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCustomText.swift; sourceTree = "<group>"; };
+		E4306BF92B66F7FE0047C808 /* MoonshotLearningPointsSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotLearningPointsSecondView.swift; sourceTree = "<group>"; };
 		E450BEAD2AD465AA00D92B8A /* iExpenseLearningPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseLearningPointsView.swift; sourceTree = "<group>"; };
 		E450BEAF2AD46CF300D92B8A /* iExpenseLearningPointsSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseLearningPointsSecondView.swift; sourceTree = "<group>"; };
 		E466B4F72B0B0C1D00716F87 /* iExpenseAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseAppView.swift; sourceTree = "<group>"; };
@@ -159,6 +167,33 @@
 			path = MultiplyTablesGameApp;
 			sourceTree = "<group>";
 		};
+		E4306BF02B66EB2D0047C808 /* MoonshotApp */ = {
+			isa = PBXGroup;
+			children = (
+				E4306BF32B66F1BB0047C808 /* Views */,
+				E4306BF42B66F1C00047C808 /* Models */,
+				E4306BF12B66EC3A0047C808 /* MoonshotLearningPointsView.swift */,
+				E4306BF92B66F7FE0047C808 /* MoonshotLearningPointsSecondView.swift */,
+			);
+			path = MoonshotApp;
+			sourceTree = "<group>";
+		};
+		E4306BF32B66F1BB0047C808 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4306BF72B66F1FD0047C808 /* MCustomText.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4306BF42B66F1C00047C808 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4306BF52B66F1D10047C808 /* MUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E450BEAC2AD4642100D92B8A /* iExpenseApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +256,7 @@
 				E42AEF342A525EE40036AD1B /* AnimationsApp */,
 				E42AEF372A59DED80036AD1B /* MultiplyTablesGameApp */,
 				E450BEAC2AD4642100D92B8A /* iExpenseApp */,
+				E4306BF02B66EB2D0047C808 /* MoonshotApp */,
 				E4781BF129E217FA00DC2020 /* Persistence.swift */,
 				E4781BF829E217FB00DC2020 /* Assets.xcassets */,
 				E4781BFA29E217FB00DC2020 /* hundred_days_with_swiftui.entitlements */,
@@ -417,13 +453,17 @@
 				E466B4FB2B0B0C8500716F87 /* Expenses.swift in Sources */,
 				E4EDC8A329FB5CDA00E1E134 /* TemperatureConverterView.swift in Sources */,
 				E450BEAE2AD465AA00D92B8A /* iExpenseLearningPointsView.swift in Sources */,
+				E4306BFA2B66F7FE0047C808 /* MoonshotLearningPointsSecondView.swift in Sources */,
+				E4306BF82B66F1FD0047C808 /* MCustomText.swift in Sources */,
 				E4781BF029E217FA00DC2020 /* hundred_days_with_swiftuiApp.swift in Sources */,
 				E4EDC8A629FB607400E1E134 /* GuessTheFlagLearningPointsView.swift in Sources */,
 				E4FE4E8729F77C29002EF2AF /* UnitConverterAppView.swift in Sources */,
+				E4306BF62B66F1D10047C808 /* MUser.swift in Sources */,
 				E4781BF229E217FA00DC2020 /* Persistence.swift in Sources */,
 				E42AEF312A5101810036AD1B /* WordScrambleAppView.swift in Sources */,
 				E42537C029EE3FAE00C48E34 /* WeSplitLearningPointsView.swift in Sources */,
 				E400E4692A19A50F00A38FCF /* TechnicalProjectAppView.swift in Sources */,
+				E4306BF22B66EC3A0047C808 /* MoonshotLearningPointsView.swift in Sources */,
 				E4781BF729E217FA00DC2020 /* WeSplitAppContentView.swift in Sources */,
 				E4EE78762A1C64E400B49F3C /* RockPaperScissorsAppView.swift in Sources */,
 				E42AEF362A525F080036AD1B /* AnimationsAppView.swift in Sources */,

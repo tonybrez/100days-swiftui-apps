@@ -23,7 +23,9 @@ struct hundred_days_with_swiftuiApp: App {
             //AnimationsAppView()
             //MultiplyTablesGameAppView()
             //iExpenseLearningPointsView()
-            iExpenseAppView()
+            //iExpenseAppView()
+            MoonshotLearningPointsView()
+            //MoonshotLearningPointsSecondView()
         }
     }
 }
